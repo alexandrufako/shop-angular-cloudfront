@@ -51,3 +51,4 @@ Most likely you are getting a message
 > husky - commit-msg script failed (code 1)
 
 To fix it you either need to follow conventional commit messages rules, or remove `.husky/pre-commit` file which enables the aforementioned rule.
+..
