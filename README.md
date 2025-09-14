@@ -54,3 +54,4 @@ To fix it you either need to follow conventional commit messages rules, or remov
 ..
 
 angular shop url: https://du2uumnfw20j3.cloudfront.net
+s3-bucket url(not working): https://shop-angular-cloudfront-course-2025.s3.eu-north-1.amazonaws.com/index.html 
