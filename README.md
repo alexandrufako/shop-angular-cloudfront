@@ -52,3 +52,6 @@ Most likely you are getting a message
 
 To fix it you either need to follow conventional commit messages rules, or remove `.husky/pre-commit` file which enables the aforementioned rule.
 ..
+
+angular shop url: https://du2uumnfw20j3.cloudfront.net
+s3-bucket url(not working): https://shop-angular-cloudfront-course-2025.s3.eu-north-1.amazonaws.com/index.html 
