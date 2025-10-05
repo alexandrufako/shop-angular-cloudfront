@@ -1,4 +1,4 @@
-export type ApiEndpoint = 'product' | 'order' | 'import' | 'bff' | 'cart';
+export type ApiEndpoint = 'productApi' | 'orderApi' | 'importApi' | 'bffApi' | 'cartApi';
 
 export interface Config {
   production: boolean;
