@@ -3,7 +3,11 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 import { products } from '../data/products'; // Import your mock data
 
 export const handler = async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
-    console.log("getProductsList handler triggered:", event);
+    console.log("getProductsList handler triggered:", {
+        httpMethod: event.httpMethod,
+        path: event.path,
+        requestId: event.requestContext?.requestId,
+    });
 
     try {
         return {
